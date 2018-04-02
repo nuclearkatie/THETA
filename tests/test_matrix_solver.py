@@ -9,6 +9,7 @@ def test_solver_a():
     b = np.array([[1], [1]])
     assert (ms.solve_matrix(A, b) == np.array([[0], [1]])).all()
 
+
 def test_solver_b():
     A = np.array([[1, -2, -2], [-2, 1, -2], [-2, -2, 1]])
     b = np.array([[9], [3], [-3]])
